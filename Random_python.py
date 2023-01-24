@@ -108,7 +108,7 @@ if __name__ == "__main__":
         # Plots the histogram. Changes the bin size to 100, the Y axis to "Probability", and bin size to 100, and adds kernel density estimate
         sns.histplot(data=new_file['numbers'], bins=100, stat='probability', color='purple', kde=True)
         plt.show()
-        print(new_file[:5])
+        
 
    
     
